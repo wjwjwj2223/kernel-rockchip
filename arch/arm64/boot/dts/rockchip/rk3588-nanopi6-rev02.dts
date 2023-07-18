@@ -163,6 +163,22 @@
 	};
 };
 
+&i2c5 {
+	status = "okay";
+	pinctrl-names = "default";
+	pinctrl-0 = <&i2c5m3_xfer>;
+
+	dlpc: dlpc@1b {
+		compatible = "dlpc,dlpc4710";
+		reg = <0x1b>;
+		clock-frequency = <100000>;
+	};
+};
+
+&uart1 {
+	status = "disabled";
+};
+
 &u2phy0 {
 	status = "okay";
 };

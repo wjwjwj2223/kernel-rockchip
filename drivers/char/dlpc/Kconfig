@@ -1,0 +1,4 @@
+config DLPC
+	tristate "dlpc4710"
+	help
+	dlpc

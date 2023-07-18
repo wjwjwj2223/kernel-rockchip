@@ -1,0 +1,1 @@
+obj-$(CONFIG_DLPC)+=dlpc4710.o

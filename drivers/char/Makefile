@@ -37,6 +37,7 @@ obj-$(CONFIG_TELCLOCK)		+= tlclk.o
 
 obj-$(CONFIG_MWAVE)		+= mwave/
 obj-y				+= agp/
+obj-$(CONFIG_DLPC)			+= dlpc/
 obj-$(CONFIG_PCMCIA)		+= pcmcia/
 
 obj-$(CONFIG_HANGCHECK_TIMER)	+= hangcheck-timer.o
